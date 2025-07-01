@@ -1,0 +1,14 @@
+# sliding window config
+
+num_time_interval: 96
+train_days: 21
+valid_days: 4
+batch_size: 10
+drop_last: False
+input_len_period: 9
+epochs: 4000
+only_closeness: True
+n_nodes: 633
+early_stop_steps: 300
+ReduceLROnPlateau_patience: 60
+
