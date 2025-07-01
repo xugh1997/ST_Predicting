@@ -1,4 +1,4 @@
-# SpatiotemporaL predicting
+# Spatiotemporal predicting
 ## 模型架构示意图
 ![image](https://github.com/xugh1997/spatial_tempora_predictionng/blob/main/introduction.png)
 该时空预测模型使用自适应的超图卷积建模高阶多元空间依赖，使用基于全连接图的图注意力机制建模二元对偶的空间依赖，并使用基于因果卷积的TCN建模时间依赖关系
