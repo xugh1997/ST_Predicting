@@ -48,7 +48,7 @@ class Load_Dataset(Dataset):
         return self.len
 
 def data_generator(data_path, configs, input_len=None):
-    origin_data = torch.load('data/mobile_data.pt',weights_only=False)
+    origin_data = torch.load('mobile_data.pt',weights_only=False)
     days,time_intervals,n_nodes = origin_data.size()
     train_dataset = origin_data[:configs['train_days']]
     valid_dataset = origin_data[configs['train_days']:configs['valid_days']+configs['train_days']]
