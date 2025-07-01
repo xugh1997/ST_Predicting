@@ -16,6 +16,7 @@
 #### 进行模型的训练和推断
 ## 文件说明
 ### 核心代码
+- `extract_pop_from_mobile_phone.py` 提前人口热力值
 - `main.py` - 程序主入口
 - `config.yml` - 配置文件，包含常量和配置参数
 - `dataloader.py` - 加载数据
